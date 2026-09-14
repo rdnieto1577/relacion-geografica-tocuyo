@@ -1,5 +1,14 @@
-paso,objeto,página,x,y,zoom,inicio_clip,fin_clip,bucle,texto_alt,pregunta,respuesta,boton_capa1,contenido_capa1,boton_capa2,contenido_capa2
-#,id_objeto de la pestaña objetos / objects,para objetos con múltiples páginas,Posición horizontal 0-1 (0.5 = centro),Posición vertical 0-1 (0.5 = centro),1.0 = imagen completa,"Tiempo de inicio para clips de video/audio, ej. ""1:30"" (m:ss) o ""90"" (segundos)",Tiempo de fin para clips de video/audio,sí para repetir el clip (loop),"Describe lo que se ve en esta vista ampliada para lectores de pantalla. Si se deja vacío, se usa la descripción de imagen del objeto.",Encabezado para este paso,Texto breve de 1-2 oraciones,"Texto opcional del botón (predeterminado: ""Saber más"")","Contenido del panel: escribe texto aquí, pega markdown, o indica ruta a archivo .md (ej. tu-historia/archivo.md)","Texto opcional del segundo botón (predeterminado: ""Profundizar más"")","Segundo panel: escribe texto aquí, pega markdown, o indica ruta a archivo .md"
-1,telar-placeholder,,,,,,,,,pregunta,respuesta,,,,
-2,telar-placeholder,,,,,,,,,pregunta,respuesta,,,,
-3,telar-placeholder,,,,,,,,,pregunta,respuesta,,,,
+step,object,x,y,zoom,page,question,answer,alt_text,layer1_button,layer1_content,layer2_button,layer2_content,clip_start,clip_end,loop
+paso,objeto,x,y,zoom,pagina,pregunta,respuesta,texto_alt,boton1,contenido1,boton2,contenido2,inicio_clip,fin_clip,bucle
+1,rgdeltocuyo,0.5,0.5,0.6733500000000001,,Qué es este mapa?,"La Ciudad de El Tocuyo, representada en un mapa confeccionado 1579",,,,,,,,
+2,rgdeltocuyo,0.4251264012138998,0.5438824216345933,4,,¿Quién hizo el mapa? ¿Qué sabemos sobre su autor?,,,,,,,,,
+3,rgdeltocuyo,0.3229279366900914,0.5208963620147614,4,,¿Por qué se hizo el mapa?,,,,,,,,,
+4,rgdeltocuyo,0.2509564742938446,0.44851093337310943,4,,¿Para quién se hizo el mapa?,,,,,,,,,
+5,rgdeltocuyo,0.22680550646307937,0.39360358568701675,2,,¿Cómo se diseñó el mapa?,,,,,,,,,
+6,rgdeltocuyo,0.29168036858571195,0.29618009616034796,4,,¿Cómo está orientado el mapa?,,,,,,,,,
+7,rgdeltocuyo,0.423131818773554,0.4763577748493977,2,,¿Qué revela el trazado urbano sobre El Tocuyo?,,,,,,,,,
+8,rgdeltocuyo,0.3264572541865439,0.4549532312628925,6.385232903865214,,¿Cómo se organizan los espacios eclesiásticos y conventuales?,,,,,,,,,
+9,rgdeltocuyo,0.7453255378464922,0.5165632384791232,4.368695868095351,,¿Cómo representa el mapa el paisaje circundante?,,,,,,,,,
+10,rgdeltocuyo,0.10186213980533225,0.732128592069078,4.368695868095351,,¿Qué revelan los símbolos del mapa?,,,,,,,,,
+11,rgdeltocuyo,0.6952216268506424,0.6152901588932097,4.299816959999999,,¿Por qué es importante el río?,,,,,,,,,
+12,rgdeltocuyo,0.6214899823043063,0.3583987840382661,6.385232903865214,,¿Qué animales aparecen y por qué?,,,,,,,,,

@@ -7,11 +7,11 @@ description: "La Relacion Geográfica de El Tocuyo (1579)"
 url: "https://rdnieto1577.github.io"
 baseurl: "/relacion-geografica-tocuyo"
 author: "Rafael Nieto"
-email: ""
-telar_theme: "austin" # Options: trama, paisajes, neogranadina, santa-barbara, austin, or custom
+email: "rd.nieto1592@utexas.edu"
+telar_theme: "austin"
 logo: ""
-telar_language: "es" # Options: "en" (English), "es" (Español)
-collection_mode: false # Set to true to show objects first with large thumbnails and stories below with small thumbnails (collection-first homepage)
+telar_language: es
+collection_mode: false
 
 # Story Interface Settings
 story_interface:
